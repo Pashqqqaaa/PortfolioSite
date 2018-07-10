@@ -1,29 +1,30 @@
 
-*{
-  margin: 0px;
-  padding: 0px;
+body {
+    font-family: 'Rubik', sans-serif;
 }
-body{
-  font-family: 'Rubik', sans-serif;
-}
-.b1 img {
+
+header img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
 }
-.main{
-  width: 1170px;
-  margin: 0 auto;
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
 }
-.b1bl1{
-padding: 25px 0px;
-display: flex;
+
+.logo-section {
+    padding: 25px 0px;
+    display: flex;
     justify-content: space-around;
 }
-.b1{
-      background-color: peachpuff;
+
+header {
+    background-color: peachpuff;
 }
-.b2bl2 p{
+
+.biography p {
     font-size: 30px;
     text-align: center;
     margin: 60px 0px;
@@ -31,47 +32,49 @@ display: flex;
     border: 1px solid #000;
     border-radius: 22px;
 }
-.b44{
+
+.block-group {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 270px;
 }
-.b41{
-  width: 45%;
+
+.block-skils {
+    margin-top: 25px;
 }
-.zornet_ru li {
-    display: block;
-    width: 35%;
-    float: left;
-    padding: 19px;
-    border: 1px solid;
-    border-radius: 32px;
-    background: gray;
-    color: #fff;
-    margin-left: 26px;
-    /* margin-right: 26px; */
+
+.skils {
+    display: flex;
+    background: #ffffff;
+    flex-direction: column;
+    width: 400px;
+    padding: 5px;
+    flex-wrap: wrap;
+    height: 202px;
 }
-.b42{
-    width: 45%;
+
+a.skils-itm{
+    background: #757575;
+    color: #eee;
+    margin: 5px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 45px;
+    text-decoration: none;
 }
-ul.zornet_ru{
-  text-align: center;
-}
-.b411{
+
+.information {
     text-align: center;
     font-size: 25px;
 }
-.b42 {
-    width: 45%;
+
+.block4-paragraf {
     border: 2px solid chartreuse;
-    /* vertical-align: middle; */
-    padding-top: 25px;
+    padding-top: 30px;
     text-align: center;
-    margin-top: 29px;
+    margin-top: 35px;
+    width: 500px;
 }
-.next_caro .previous_caro{
-	width: 80px;
-	height: 80px;
-	background: #000;
-	z-index: 1;
-	position: absolute;
+footer{
+    padding-bottom: 30px;
 }
