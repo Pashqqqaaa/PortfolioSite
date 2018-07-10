@@ -68,3 +68,10 @@ ul.zornet_ru{
     text-align: center;
     margin-top: 29px;
 }
+.next_caro .previous_caro{
+	width: 80px;
+	height: 80px;
+	background: #000;
+	z-index: 1;
+	position: absolute;
+}
