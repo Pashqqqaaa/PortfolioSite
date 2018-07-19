@@ -3,6 +3,7 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+
 header img {
     width: 250px;
     height: 250px;
@@ -22,6 +23,9 @@ header img {
 
 header {
     background-color: peachpuff;
+}
+.carousel-item{
+    height: 500px;
 }
 
 .biography p {
